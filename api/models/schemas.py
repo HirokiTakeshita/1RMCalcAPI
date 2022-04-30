@@ -22,10 +22,10 @@ class CalcOneRepMaxRequestBodySchema(BaseModel):
     reps: int = Field(
         None,
         gt=0,
-        le=20,
+        le=12,
         title="Reps",
         description=("Reps must be greater than 0 and "
-                     "less than or equal to 20."),
+                     "less than or equal to 12."),
     )
 
     class Config:
