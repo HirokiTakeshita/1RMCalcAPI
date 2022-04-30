@@ -1,4 +1,4 @@
-"""Define `calc_1rm` API endpoint."""
+"""Define 'calc_1rm' API endpoint."""
 from typing import Generator, Union
 
 from fastapi import APIRouter, HTTPException, status

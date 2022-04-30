@@ -3,13 +3,13 @@ from pydantic import BaseModel, Field
 
 
 class RootResponseBodySchema(BaseModel):
-    """`Root endpoint` response body JSON schema."""
+    """`root` endpoint response body JSON schema."""
 
     message: str = Field(None, example="Hello World!")
 
 
 class CalcOneRepMaxRequestBodySchema(BaseModel):
-    """`Calc 1RM endpoint` request body JSON schema."""
+    """`calc_1rm` endpoint request body JSON schema."""
 
     weight: float = Field(
         None,
@@ -42,7 +42,7 @@ class WeightAtEachPercentageOfOneRepMax(BaseModel):
 
 
 class CalcOneRepMaxResponseBodySchema(BaseModel):
-    """`Calc 1RM endpoint` response body JSON schema."""
+    """`calc_1rm` endpoint response body JSON schema."""
 
     one_rep_max: int = Field(
         None,
