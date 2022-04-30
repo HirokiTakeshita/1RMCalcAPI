@@ -1,4 +1,4 @@
-"""Define `root` API endpoint."""
+"""Define 'root' API endpoint."""
 from fastapi import APIRouter
 
 from api.models import schemas
