@@ -9,6 +9,7 @@ one_repetition_maximum_calc_api = FastAPI()
 
 origins = [
     "http://localhost:3000",
+    "https://one-rep-max-calc-web.vercel.app",
 ]
 
 one_repetition_maximum_calc_api.add_middleware(
